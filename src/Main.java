@@ -30,5 +30,11 @@ public class Main {
         emp.raiseSalary(2.5);
         double newSalary = emp.getSalary();
         System.out.println("new Salary: "+ newSalary);
+
+
+        Product product = new Product("Cake", 120.00, 20);
+        product.decreaseQuantity(4);
+        product.increaseQuantity(5);
+        System.out.println("new quantity: "+ product.getQuantity());
     }
 }
